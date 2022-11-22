@@ -1,0 +1,18 @@
+//----------------------------------------
+//  Your web app's Firebase configuration
+//----------------------------------------
+var firebaseConfig = {
+    apiKey: "AIzaSyDLoICXYebyC7x2Iw1IDkrNbJqhNiB7Zl0",
+    authDomain: "fir-8e2fc.firebaseapp.com",
+    projectId: "fir-8e2fc",
+    storageBucket: "fir-8e2fc.appspot.com",
+    messagingSenderId: "574386250684",
+    appId: "1:574386250684:web:3f8fc1b71134dabd6641b9"
+};
+
+//--------------------------------------------
+// initialize the Firebase app
+// initialize Firestore database if using it
+//--------------------------------------------
+const app = firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
